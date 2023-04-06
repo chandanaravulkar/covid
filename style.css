@@ -1,0 +1,1122 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+.main{
+    overflow:hidden;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+}
+
+.heading{
+    background-image: url("/images/backgimg.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    
+    width: 100%;
+    height: 706px;
+    
+} 
+.one li{
+    display: flex;
+    cursor: pointer;
+    margin: auto;
+    padding: 0%;
+    font-size: 20px;
+}
+ul li{
+    display: flex;
+    padding-left: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+
+.one h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: larger;
+    font-size: 70px;
+    margin: auto;
+    text-align: left;
+    padding: 150px;
+}
+.home h1{
+    background-color: #05070c;
+    padding: 15px;
+}
+ .hover h2{ 
+    color: black;
+    font-size: 2.7rem;
+    left: 10px;
+    display: flex;
+    line-height: 15px;
+     text-align: center;
+     align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+     margin: 0px;
+     bottom: -15pt;        
+     top: 200;
+     position: relative;
+     padding: 10px;
+        }
+
+    
+      .hover p{
+             color: rgb(46, 47, 48);
+              position: relative;
+               font-size: 20px; 
+               top: 25px;
+               padding: 10px;
+         }
+
+         .hover span{
+            display: flex;
+            line-height: 25px;
+            font-weight: 500;
+             color: #2b07ad;
+             position: relative;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+             letter-spacing: 1px;
+              font-size: 3rem;
+              margin: 0px;
+               bottom: 100%;
+               padding: 20px;
+            }
+
+       .hover img{
+            height: 350px; 
+            width: 1000px;
+             margin: 20px;
+             bottom: 100px;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+            }
+            
+.last h1{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+ .laster , .lastest  , .fastest {
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+    
+}
+.laster img, .lastest img, .fastest img{
+    margin: 50px;
+}
+
+.images {
+    padding: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.coin h2{
+    padding: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+.coin p{
+    padding: 20px;
+    font-size: larger;
+}
+.para {
+    position: relative;
+    top: 150px;
+    left: 150px;
+    z-index: 0;
+   
+    
+}
+.para h1 {
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+
+.map{
+   
+    padding: 20px;
+    margin: 20px;
+}
+.world{
+    display: flex;
+    background-color: #F07F74;
+    height: 570px;
+}
+
+ .span{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    bottom: 100%;
+    padding: 10px;
+}
+.head h2{
+    text-align: center;
+    padding: 10px;
+}
+.head span{
+    display: flex;
+     line-height: 25px;
+     font-size: 2.2rem;
+     color: #970566;
+     letter-spacing: 1px;
+     font-weight: 300;
+     margin: 0px;
+     bottom: 100%;
+     text-align: center;
+}
+.head h2{
+    line-height: 55px;
+    font-size: 2.2rem;
+    color:#05070c ;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+    bottom: 100%;
+}
+.box-container{
+    bottom: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    
+}
+.box{
+    bottom: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 10px 8px 30px rgb(88, 80, 80);
+    border-radius: 10px;
+    background-color: rgb(247, 199, 207);
+    margin: 20px;
+    flex-grow: 1;
+}
+.box img{
+    height: 150px;
+    margin: 10px;
+}
+.box strong{
+    font-size: 1.5rem;
+    color: #060607;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.box p{
+    font-size: 1rem;
+    color: #262829;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+}
+.hlp h1{
+    background-color: #05070c;
+    padding: 15px;
+
+}
+.hlp h2{
+    font-size: 30px;
+    padding: 10px;
+    color: #970566;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hlp img{
+    padding: 10px;
+}
+.hlp h3{
+    font-size: 25px;
+    padding: 10px;
+    color: #970566;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .hlp p{
+     font-size: larger;
+     padding: 10px;
+ }
+ .table {
+     border: 2px solid black;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 20px;
+     width: 400px;
+ }
+ .table  th{
+     font-size: 25px;
+     font-weight: 300;
+     padding: 10px;
+ }
+ .table  td{
+     font-size: large;
+     padding: 5px;
+     margin: 30px;
+ }
+ .link a{
+     color: #0a3194;
+     text-decoration: underline;
+ }
+ .link{
+     padding: 10px;
+ }
+
+.tail {
+   margin:150px 0 0 200px ;
+}
+
+.footer h2{
+    padding: 20px;
+    background-color: black;
+}
+
+.down, .tail{
+    height: 500px;
+}
+.down {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    margin: 100px;
+    float: right;
+    color: black;
+    
+}
+.down p{
+    padding: 20px;
+    font-size: larger;
+    text-align: left;
+    font-size: 25px;
+
+}
+
+.down table{
+    padding: 10px;
+    font-size: larger;
+}
+.tail p{
+    text-align: left;
+    margin: 15px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.tail img{
+  padding: 15px;
+}
+.button button{
+    margin-left: 45%;
+}
+.E{
+    background-color: #05070c;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    
+  }
+ .A{
+     display: flex;
+     flex-direction: row;
+     float: left;
+     padding: 5px;
+     margin: auto;
+ } 
+ .A img{
+     background-color: white;
+ }
+ .d{
+     display: grid;
+     float: right;
+     padding: 25px;
+     margin: 5px;
+     color: white;
+
+ }
+ .a , .b , .c{
+     padding: 20px;
+     color: white;
+ }
+ @media(max-width:1395px){
+     .main{
+         overflow: hidden;
+     }
+    
+    .latest {
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+      }
+     
+     .para h1{
+         padding: 10px;
+         margin: 10px;
+     }
+     .para{
+         position: relative;
+         top: 150px;
+         left: 80px;
+     }
+     
+ }
+ @media(max-width:1290px){
+    .main{
+        overflow: hidden;
+    }
+     .para h1{
+         padding: 5px;
+         margin: 5px;
+     }
+     .para{
+         position: relative;
+         top: 150px;
+         left: 50px;
+     }
+     
+ }
+ @media(max-width:1260px){
+    .main{
+        overflow: hidden;
+    }
+     .world{
+         display: grid;
+         grid-template-rows: 20% 80%;
+     }
+     .map{
+         margin: auto;
+     }
+     .para{
+        margin: auto;
+     }
+
+      .laster , .lastest, .fastest {
+        display: grid;
+        grid-template-rows: auto;
+        padding: 20px;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        bottom: auto;
+        
+        
+    }
+    .latest{
+        display: grid;
+        grid-gap: 20px;
+    }
+    .coin h2{
+        position: relative;
+        top: 20px;
+    }
+      .tail p{
+        text-align: left;
+        margin: 10px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+ }
+ @media(max-width:1130px){
+    .main{
+        overflow: hidden;
+    }
+      .tail{
+         
+        margin: 150px 0 0 100px ;
+    
+         }
+         
+         
+        }
+  @media(max-width:1040px){
+    .main{
+        overflow: hidden;
+    }
+      .hover img{
+          width: 800px;
+      }
+     
+    .tail{
+        margin: auto;
+        position: relative;
+        top: 80px;
+    }
+    .footer{
+         display: grid;
+         grid-template-columns: auto;
+         height: 850px;
+    }
+    .down{
+        margin: auto;
+        position: relative;
+        top: 40px;
+
+    }
+    .table{
+        margin: auto;
+        width: 430px;
+    }
+      
+  } 
+  @media(max-width:975px){
+    .main{
+        overflow: hidden;
+    }
+      .images{
+          display: grid;
+          grid-template-columns: auto;
+          grid-gap:10px;
+      }
+     .E{
+         height: 200px ;
+         display: grid;
+         grid-template-columns: auto;
+     } 
+     .d{
+       display: grid;
+       justify-content: center;
+       align-items: center;
+        
+        padding: 10px;
+        margin: 5px;
+       
+   
+    }
+      
+  }     
+
+ @media(max-width:950px){
+    .main{
+        overflow: hidden;
+    }
+     .images img{
+         width: 200px ;
+         height: 100px;
+     }
+     
+ }
+ @media(max-width:860px){
+    .main{
+        overflow: hidden;
+    }
+     .one h1{
+    font-weight: large;
+    font-size: 50px;
+    margin: 20px;
+     }
+     .map img{
+        width: 100% ;
+        margin: auto;
+     }
+     
+ }
+@media(max-width:835px){
+    .main{
+        overflow: hidden;
+    }
+    .hover img{
+        width: 600px;
+    }
+    .table{
+        margin: auto;
+    }
+    
+    
+    
+}
+@media(max-width:750px){
+    .main{
+        overflow: hidden;
+    }
+    .one h1{
+        font-weight: medium;
+    font-size: 50px;
+    margin: 10px;
+    padding: 100px;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+
+}
+@media(max-width:665px){
+    .main{
+        overflow: hidden;
+    }
+    .down{
+        padding: 15px;
+        margin: auto ;
+        width: 350px;
+        position: relative;
+        top: 30px;
+        bottom: auto;
+    }
+    .down p{
+        padding: 10px;
+    }
+    .tail{
+        position: relative;
+        top: 50px;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media(max-width:650px){
+    .main{
+        overflow: hidden;
+    }
+    .hover img{
+        width: 500px;
+        height: 300px;
+    }
+    .images img{
+        width: 150px ;
+        height: 100px;
+        padding: 10px;
+    }
+    .map img{
+        width: 450px;
+        height: 300px ;
+        margin: auto;
+     }
+     .para h1{
+         padding: 5px;
+         margin: 5px;
+     }
+     .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .one li{
+        font-size: 10px;
+    }
+     
+}
+@media(max-width:620px){
+    .main{
+        overflow: hidden;
+    }
+    
+    .one h1{
+        font-weight: medium;
+        font-size: 50px;
+        margin: 5px;
+        padding: 150px;
+        position: relative;
+        left: 10px;
+        top: 50px;
+    }
+    
+    
+    .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media(max-width:560px){
+    .main{
+        overflow: hidden;
+    }
+    
+    .heading{
+        background-image: url("https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/Coronavirus-illustration-800x1200.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+        .d{
+            display: grid;
+            float: right;
+            padding: 10px;
+            margin: 2px;
+            color: white;
+       
+        }
+      .hover p{
+          font-size: 15px;
+      }  
+      .images {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .one h1{
+        font-weight: medium;
+        font-size: 45px;
+        margin: 5px;
+        padding: 100px;
+        position: relative;
+        left: 5px;
+        top: 70px;
+    }
+      
+    
+    
+}
+@media(max-width:525px) {
+    .main{
+        overflow: hidden;
+    }
+    .hover img{
+        width: 400px;
+        height: 250px;
+    }
+    .hover span{
+        line-height: 20px;
+        font-weight: 400;
+        font-size: larger;
+    }
+    .para{
+        position: relative;
+       left: 20px;
+        top: 80px;
+    }
+    .one h1{
+        font-weight: medium;
+        font-size: 40px;
+        margin: 5px;
+        padding: 90px;
+        position: relative;
+        left: 5px;
+        top: 100px;
+    }
+    .tail {
+      position: relative;
+      top: 100px;
+    }
+
+
+}
+@media(max-width:520px){
+    .main{
+      overflow: hidden;
+    }
+    .hlp img{
+        width: 450px;
+    }
+}
+@media(max-width:480px){
+    .main{
+        overflow: hidden;
+      }
+      .map img{
+        width: 100% ;
+        margin: auto;
+     }
+     .table{
+        margin: auto;
+        width: 350px;
+    }
+    .E{
+        height: 150px ;
+        display: grid;
+        grid-template-columns: auto;
+    } 
+    .d{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+       padding: 5px;
+       margin: 5px;
+      
+  
+   }
+}
+@media(max-width:470px){
+    .main{
+        overflow: hidden;
+      }
+      .hlp img{
+        width: 400px;
+        height: 300px;
+    }
+    ul img{
+        width: 70px;
+    }
+    .a,.b,.c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .E{
+        height: 180px;
+    }
+}
+@media(max-width:420px){
+    .main{
+        overflow: hidden;
+      }
+    .hover img{
+        width: 350px;
+        height: 200px;
+    }
+    .hlp img{
+        width: 350px;
+        height: 250px;
+    }
+    .laster , .lastest  , .fastest {
+        width: 300px;
+        padding: 20px;
+        margin: 30px;
+        
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 40px;
+    }
+}
+
+@media(max-width:395px){
+    .main{
+        overflow: hidden;
+      }
+     
+    .table{
+        margin: auto;
+        width: 300px;
+        padding: 5px;
+    }
+    .table  th{
+        font-size: 20px;
+        font-weight: 200;
+        padding: 10px;
+    }
+    .down {
+      
+        width: 250px;
+        height: 270px;
+        padding: 30px;
+        margin: auto;
+       
+        
+    }
+    
+    .down p{
+        padding: 10px;
+        font-size: large;
+        text-align: left;
+        font-size: 15px;
+    
+    }
+    
+    .down table{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+}
+@media(max-width:375px){
+    .main{
+        overflow: hidden;
+        width: 100%;
+      }
+    .hover img{
+        width: 300px;
+        height: 150px;
+    }
+    .map img{
+        height: 300px;
+    }
+    
+    .one h1{
+        font-weight: medium;
+        font-size: 30px;
+        margin: 5px;
+        padding: 50px;
+        position: relative;
+        left: 0px;
+        top: 200px;
+    }
+}
+@media(max-width:370px){
+    .main{
+        overflow: hidden;
+        width: 100%;
+      }
+}
+@media(max-width:360px){
+    .main{
+        overflow: hidden;
+        width: 100%;
+      }
+      .hlp img{
+        width: 300px;
+        height: 200px;
+      }
+      .tail p{
+        text-align: left;
+        margin: 20px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+}
+@media(max-width:360px){
+    .main{
+        overflow: hidden;
+        width: 100%;
+      }
+}
+@media  (max-width: 330px){
+    .main{
+        width: 100%;
+        overflow: hidden;
+      }
+      ul img{
+        width: 60px;
+    }
+    .one li{
+        font-size: 8px;
+    }
+    .hover img{
+        width:80% ;
+        margin: 10px;
+        padding: 20px;
+    }
+    .laster , .lastest  , .fastest {
+        width: 250px;
+        padding: 10px;
+        margin: 30px;
+        height: 550px;
+        
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 30px;
+    }
+    .map >img{
+        height: 200px;
+        position: relative;
+        top: 50px;
+
+    }
+    .para>h1{
+        font-size: 20px;
+    }
+    .world{
+        height: 500px;
+    }
+    .table{
+        margin: auto;
+        width: 250px;
+        padding: 2px;
+    }
+    
+    .table  td{
+        font-size: 10px;
+        padding: 2px;
+        margin: 20px;
+    }
+    
+    .table th{
+        font-size: 15px;
+    }
+    .down {
+      
+        width: 200px;
+        height: 250px;
+        padding: 20px;
+       margin: 20px;
+        
+    }
+    .tail p{
+        text-align: left;
+        margin: 20px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .head span{
+        font-size: 1.7rem;
+    }
+    .head h2{
+        font-size: 25px;
+    }
+    .d li{
+        font-size: 10px;
+    }
+    .A p{
+        font-size: 10px; 
+    }
+     .hlp h2{
+         font-size: 25px;
+     }
+     .box{
+        bottom: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+       
+        margin: 10px;
+        flex-grow: 1;
+    }
+}
+@media(max-width:350px){
+    .main{
+        width: 100%;
+        overflow: hidden;
+      }
+      .laster , .lastest  , .fastest {
+        width: 250px;
+        padding: 10px;
+        margin: 30px;
+        height: 550px;
+        
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 30px;
+    }
+}
+
+@media  (max-width: 320px){
+    .main{
+        width: 100%;
+        overflow: hidden;
+      }
+      ul img{
+        width: 60px;
+    }
+    .one li{
+        font-size: 8px;
+    }
+    .hover img{
+        width:80% ;
+        margin: 10px;
+        padding: 20px;
+    }
+    .laster , .lastest  , .fastest {
+        width: 250px;
+        padding: 10px;
+        margin: 30px;
+        height: 550px;
+        
+    }
+    .laster img, .lastest img, .fastest img{
+        margin: 30px;
+    }
+    .map >img{
+        height: 200px;
+        position: relative;
+        top: 50px;
+
+    }
+    .para>h1{
+        font-size: 20px;
+    }
+    .world{
+        height: 500px;
+    }
+    .table{
+        margin: auto;
+        width: 250px;
+        padding: 2px;
+    }
+    
+    .table  td{
+        font-size: 10px;
+        padding: 2px;
+        margin: 20px;
+    }
+    
+    .table th{
+        font-size: 15px;
+    }
+    .down {
+      
+        width: 200px;
+        height: 250px;
+        padding: 20px;
+       margin: 20px;
+        
+    }
+    .tail p{
+        text-align: left;
+        margin: 20px;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .head span{
+        font-size: 1.7rem;
+    }
+    .head h2{
+        font-size: 25px;
+    }
+    .d li{
+        font-size: 10px;
+    }
+    .A p{
+        font-size: 10px; 
+    }
+     .hlp h2{
+         font-size: 25px;
+     }
+     .box{
+        bottom: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+       
+        margin: 10px;
+        flex-grow: 1;
+    }
+}
